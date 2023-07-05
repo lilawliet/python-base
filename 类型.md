@@ -1,0 +1,40 @@
+### python 一切皆对象
+
+- 所有对象继承自 object
+  - type 创建 object
+  - type 继承自 object
+  - type 创建自身
+  - class 创建调用 type
+- 对象的三个特征：
+  - 身份： id(value)
+  - 类型： type(value)
+  - 值： value
+- None 全局只有一个
+- 数值类型
+  - int
+  - float
+  - complex（复数）
+  - bool
+- 迭代类型（迭代器 & 生成器）
+- 序列类型
+  - list
+  - bytes、bytearray、memoryview（二进制序列）
+  - range
+  - tuple
+  - str
+  - array
+- 映射（dict）
+- 集合
+  - set
+  - frozenset（不可变）
+- 上下文管理器类型（with）文件
+- 其他
+  - 模块类型 （import）
+  - class 和 实例
+  - 函数类型
+  - 方法类型（类方法中的函数
+  - 代码类型（编写的代码
+  - object 对象
+  - type 类型
+  - ellipsis 类型
+  - notimplemented 类型
